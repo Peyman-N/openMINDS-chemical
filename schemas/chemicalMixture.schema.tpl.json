@@ -1,0 +1,31 @@
+{
+    "_type": "https://openminds.ebrains.eu/chemistry/chemicalMixture",
+    "required": [
+        "components"
+    ],
+    "properties": {
+        "components": {
+            "type": "array",
+            "minItems": 1,
+            "_instruction": "Please indicate all the substances and soultions used in this mixture",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/chemistry/quantityOfSubstance",
+                "https://openminds.ebrains.eu/chemistry/chemicalSolution"
+            ]
+        },
+        "potentialUse": {
+            "type": "string",
+            "_instruction": "Please indicate all the possible uses of this chemical mixture"
+        },
+        "producedBy": {
+            "_instruction": "The person responsible for creating this mixture",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/core/Person"
+            ]
+        },
+        "descreion": {
+            "type": "string",
+            "_instruction": "Enter a description for this chemical mixture"
+        }
+    }
+}

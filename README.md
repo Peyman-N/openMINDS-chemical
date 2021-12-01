@@ -1,8 +1,8 @@
 
-# openMINDS_chemical
+# openMINDS_chemistry
 A metadata model for chemical substances used in neuroscience; an openMINDS extension.
 
-The **openMINDS_chemical** repository is part of the **open** **M**etadata **I**nitiative for **N**euroscience **D**ata Structures (**openMINDS**). It extends openMINDS core, by providing schema-templates for adding metadata for simulation and data analysis.
+The **openMINDS_chemistry** repository is part of the **open** **M**etadata **I**nitiative for **N**euroscience **D**ata Structures (**openMINDS**). It extends openMINDS core, by providing schema-templates for adding metadata for simulation and data analysis.
 
 The major versions are developed and maintained in different version-branches. The default branch is always the latest version-branch.
 **Each version can be accessed by checking out the corresponding version-branch.** No major version branch has yet been released. This README describes the development branch ("main").

@@ -30,7 +30,7 @@
         "chemicalSubstance": {
             "_instruction": "the substance provided by the product. 'activeIngredient'",
             "_linkedTypes": [
-                "https://openminds.ebrains.eu/controlledTerms/chemicalSubstance"
+                "https://openminds.ebrains.eu/controlledTerms/MolecularEntity"
             ]
         }
     }

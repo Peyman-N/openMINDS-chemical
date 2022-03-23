@@ -23,7 +23,7 @@
                 "https://openminds.ebrains.eu/core/Person"
             ]
         },
-        "descreion": {
+        "description": {
             "type": "string",
             "_instruction": "Enter a description for this chemical mixture"
         }

@@ -27,6 +27,12 @@
                 "https://openminds.ebrains.eu/controlledTerms/chemicalPhase"
             ]
         },
+        "rrid": {
+            "_instruction": "the rrid for this chemical product",
+            "_linkedType": [
+                "https://openminds.ebrains.eu/core/RRID"
+            ]
+        },
         "chemicalSubstance": {
             "_instruction": "the substance provided by the product. 'activeIngredient'",
             "_linkedTypes": [

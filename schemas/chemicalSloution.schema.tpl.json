@@ -1,27 +1,23 @@
 {
     "_type": "https://openminds.ebrains.eu/chemistry/chemicalSolution",
     "required": [
-        "concentration",
-        "chemicalProduct",
+        "solute",
         "solvent"
     ],
     "properties": {
-        "concentration": {
-            "_instruction": "the concentration of a chemical product composing the solution",
-            "_embeddedTypes": [
-                "https://openminds.ebrains.eu/core/QuantitativeValue"
-            ]
-        },
-        "chemicalProduct": {
-            "_instruction": "the chemical product composing the solution",
+        "solute": {
+            "type": "array",
+            "minItems": 1,
+            "_instruction": "The solutes composing the solution",
             "_linkedTypes": [
                 "https://openminds.ebrains.eu/chemistry/chemicalProduct"
             ]
         },
         "solvent": {
-            "_instruction": "the solvent used for this solution",
+            "_instruction": "The solvent used for this solution",
             "_linkedTypes": [
-                "https://openminds.ebrains.eu/controlledTerms/MolecularEntity"
+                "https://openminds.ebrains.eu/controlledTerms/MolecularEntity",
+                "https://openminds.ebrains.eu/chemistry/chemicalProduct"
             ]
         }
     }

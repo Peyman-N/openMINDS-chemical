@@ -21,10 +21,10 @@
             "type": "string",
             "_instruction": "the serial number of this product"
         },
-        "chemicalPhase": {
+        "stateOfMatter": {
             "_instruction": "the chemical phase of the product.",
             "_linkedTypes": [
-                "https://openminds.ebrains.eu/controlledTerms/chemicalPhase"
+                "https://openminds.ebrains.eu/controlledTerms/physicalStateOfMatter"
             ]
         },
         "rrid": {

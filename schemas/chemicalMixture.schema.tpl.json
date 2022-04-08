@@ -9,7 +9,6 @@
             "minItems": 1,
             "_instruction": "Please indicate all the substances and soultions used in this mixture",
             "_linkedTypes": [
-                "https://openminds.ebrains.eu/chemistry/quantityOfSubstance",
                 "https://openminds.ebrains.eu/chemistry/chemicalSolution"
             ]
         },

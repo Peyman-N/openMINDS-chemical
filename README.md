@@ -1,5 +1,5 @@
 <a href="https://github.com/HumanBrainProject/openMINDS_chemicals/blob/v1/img/openMINDS_chem_logo.png">
-    <img src="https://github.com/HumanBrainProject/openMINDS_chemicals/blob/v3/img/light_openMINDS-chem-logo.png" alt="openMINDS chemicals logo" title="openMINDS chemicals" align="right" height="70" />
+    <img src="https://github.com/HumanBrainProject/openMINDS_chemicals/blob/v1/img/light_openMINDS-chem-logo.png" alt="openMINDS chemicals logo" title="openMINDS chemicals" align="right" height="70" />
 </a>
 
 # openMINDS_chemistry

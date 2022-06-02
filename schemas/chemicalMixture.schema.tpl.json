@@ -10,7 +10,7 @@
             "_instruction": "Add an appropriate name for this chemical mixture."
         },
         "type": {
-            "_instruction": "Add an appropriate name for this chemical mixture.",
+            "_instruction": "Add the type of the mixture.",
             "_embeddedTypes": [
                 "https://openminds.ebrains.eu/controlledTerms/ChemicalMixtureType"
             ]

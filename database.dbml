@@ -1,0 +1,28 @@
+Table ProductSource{
+    productName string
+    provider legalPerson
+    purity quantitativeValue
+    identifier string
+    digitalIdentifier RRID
+}
+
+Table ChemicalSubstance{
+    lookupLabel string
+    molecularEntity controlledTerms
+    purity quantitativeValue
+    productSource graphlink [ref: - ProductSource.productName]
+    additionalRemarks string
+}
+
+Table AmountOfChemical{
+    amount quantitativeValue
+    chemicalProduct graphlink [ref: - ChemicalSubstance.lookupLabel]
+}
+ref: AmountOfChemical.chemicalProduct - ChemicalMixture.name
+Table ChemicalMixture{
+    name string
+    ChemicalMixtureType controlledTerms
+    components graphlink [ref: > AmountOfChemical.amount]
+    productSource graphlink [ref: - ProductSource.productName]
+    additionalRemarks string 
+}

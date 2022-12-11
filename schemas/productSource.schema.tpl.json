@@ -28,7 +28,7 @@
         },
         "digitalIdentifier": {
             "_instruction": "Add the globally unique identifier for this product (e.g. 'Research Resource Identifier' (RRID)).",
-            "_linkedType": [
+            "_linkedTypes": [
                 "https://openminds.ebrains.eu/core/RRID"
             ]
         }

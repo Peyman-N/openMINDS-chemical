@@ -1,37 +1,37 @@
 {
-    "_type": "https://openminds.ebrains.eu/chemicals/ChemicalMixture",
-    "required": [
-        "components",
-        "type"
-    ],
-    "properties": {
-        "name": {
-            "type": "string",
-            "_instruction": "Add an appropriate name for this chemical mixture."
-        },
-        "type": {
-            "_instruction": "Add the type of the mixture.",
-            "_embeddedTypes": [
-                "https://openminds.ebrains.eu/controlledTerms/ChemicalMixtureType"
-            ]
-        },
-        "components": {
-            "type": "array",
-            "minItems": 2,
-            "_instruction": "Please indicate all the substances and soultions used in this mixture",
-            "_linkedTypes": [
-                "https://openminds.ebrains.eu/chemicals/AmountOfChemical"
-            ]
-        },
-        "productSource": {
-            "_instruction": "Add the source of the chemical mixture.",
-            "_linkedTypes": [
-                "https://openminds.ebrains.eu/chemicals/ProductSource"
-            ]
-        },
-        "additionalRemarks": {
-            "type": "string",
-            "_instruction": "Enter additional remarks about the chemical substance (pure or within a mixture)."
-        }
+  "_type": "https://openminds.ebrains.eu/chemicals/ChemicalMixture",
+  "required": [
+    "components",
+    "type"
+  ],
+  "properties": {
+    "additionalRemarks": {
+      "type": "string",
+      "_instruction": "Enter additional remarks about the chemical substance (pure or within a mixture)."
+    },
+    "components": {
+      "type": "array",
+      "minItems": 2,
+      "_instruction": "Please indicate all the substances and soultions used in this mixture",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/chemicals/AmountOfChemical"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "_instruction": "Add an appropriate name for this chemical mixture."
+    },
+    "productSource": {
+      "_instruction": "Add the source of the chemical mixture.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/chemicals/ProductSource"
+      ]
+    },
+    "type": {
+      "_instruction": "Add the type of the mixture.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/ChemicalMixtureType"
+      ]
     }
+  }
 }

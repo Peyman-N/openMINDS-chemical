@@ -3,7 +3,6 @@
 </a>
 
 # openMINDS_chemicals
-A metadata model for chemical substances used in neuroscience; an openMINDS extension.
 
 The **openMINDS_chemicals** repository is part of the **open** **M**etadata **I**nitiative for **N**euroscience **D**ata Structures (**openMINDS**). It extends openMINDS core, by providing schema-templates for adding metadata for simulation and data analysis.
 

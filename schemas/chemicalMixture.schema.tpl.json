@@ -29,7 +29,7 @@
     },
     "type": {
       "_instruction": "Add the type of the mixture.",
-      "_embeddedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/ChemicalMixtureType"
       ]
     }

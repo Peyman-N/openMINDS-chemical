@@ -6,27 +6,27 @@
   ],
   "properties": {
     "digitalIdentifier": {
-      "_instruction": "Add the globally unique identifier for this product (e.g. 'Research Resource Identifier' (RRID)).",
+      "_instruction": "Add the globally unique and persistent digital identifier of this product.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/RRID"
       ]
     },
     "identifier": {
-      "_instruction": "Enter one or several identifiers for this product excluding globally unique identifiers such as RRIDs. e.g. catalog number",
-      "type": "string"
+      "type": "string",
+      "_instruction": "Enter the identifier for this product, excluding its RRID (e.g., a catalog number)."
     },
     "productName": {
       "type": "string",
-      "_instruction": "Enter the name of the product as provided by the vendor."
+      "_instruction": "Enter the name of this product as stated by the 'provider'."
     },
     "provider": {
-      "_instruction": "Add the provider of the product.",
+      "_instruction": "Add the party (private, commercial or industrial) that provided this product.",
       "_linkedCategories": [
         "legalPerson"
       ]
     },
     "purity": {
-      "_instruction": "Enter the purity of the product as stated by the vendor.",
+      "_instruction": "Enter the purity of the product as stated by the 'provider'.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue",
         "https://openminds.ebrains.eu/core/QuantitativeValueRange"

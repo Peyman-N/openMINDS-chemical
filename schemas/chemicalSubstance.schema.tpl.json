@@ -10,7 +10,7 @@
     },
     "lookupLabel": {
       "type": "string",
-      "_instruction": "Enter a lookup label for this chemical substance that may help you to find back to this instance more easily."
+      "_instruction": "Enter a lookup label for this chemical substance that may help you to find this instance more easily."
     },
     "molecularEntity": {
       "_instruction": "Add the molecular entity that makes up this chemical substance.",

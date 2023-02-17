@@ -6,20 +6,20 @@
   "properties": {
     "additionalRemarks": {
       "type": "string",
-      "_instruction": "Enter additional remarks about the chemical substance (pure or within a mixture)."
+      "_instruction": "Enter any additional remarks concering this chemical substance."
     },
     "lookupLabel": {
       "type": "string",
-      "_instruction": "Add an appropriate look up label for this substance."
+      "_instruction": "Enter a lookup label for this chemical substance that may help you to find this instance more easily."
     },
     "molecularEntity": {
-      "_instruction": "Add the name of the molecular entity that makes up the substance.",
+      "_instruction": "Add the molecular entity that makes up this chemical substance.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/MolecularEntity"
       ]
     },
     "productSource": {
-      "_instruction": "Add the source of the chemical substance.",
+      "_instruction": "Add the source of this chemical substance.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/chemicals/ProductSource"
       ]

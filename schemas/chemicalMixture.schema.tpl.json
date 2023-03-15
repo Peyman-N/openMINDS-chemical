@@ -1,7 +1,7 @@
 {
   "_type": "https://openminds.ebrains.eu/chemicals/ChemicalMixture",
   "required": [
-    "components",
+    "hasPart",
     "type"
   ],
   "properties": {
@@ -9,7 +9,7 @@
       "type": "string",
       "_instruction": "Enter any additional remarks concering this chemical mixture."
     },
-    "components": {
+    "hasPart": {
       "type": "array",
       "minItems": 2,
       "uniqueItems": true,

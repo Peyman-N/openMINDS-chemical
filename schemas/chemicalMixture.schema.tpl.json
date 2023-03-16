@@ -13,8 +13,8 @@
       "type": "array",
       "minItems": 2,
       "uniqueItems": true,
-      "_instruction": "Add all components, including other mixtures, that are part of this chemical mixture.",
-      "_linkedTypes": [
+      "_instruction": "Enter all components, including other mixtures, that are part of this chemical mixture.",
+      "_embeddedTypes": [
         "https://openminds.ebrains.eu/chemicals/AmountOfChemical"
       ]
     },

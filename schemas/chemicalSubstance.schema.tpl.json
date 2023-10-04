@@ -6,7 +6,7 @@
   "properties": {
     "additionalRemarks": {
       "type": "string",
-      "_instruction": "Enter any additional remarks concering this chemical substance."
+      "_instruction": "Enter any additional remarks concerning this chemical substance."
     },
     "lookupLabel": {
       "type": "string",

@@ -7,7 +7,7 @@
   "properties": {
     "additionalRemarks": {
       "type": "string",
-      "_instruction": "Enter any additional remarks concering this chemical mixture."
+      "_instruction": "Enter any additional remarks concerning this chemical mixture."
     },
     "hasPart": {
       "type": "array",

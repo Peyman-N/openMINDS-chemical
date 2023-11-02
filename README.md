@@ -1,8 +1,8 @@
-<a href="/img/light_openMINDS_chemicals_logo.png">
+<a href="/img/light_openMINDS-chemicals-logo.png">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="/img/dark_openMINDS_chemicals_logo.png">
-    <source media="(prefers-color-scheme: light)" srcset="/img/light_openMINDS_chemicals_logo.png">
-    <img alt="openMINDS chemicals logo" src="/img/light_openMINDS_chemicals_logo.png" title="openMINDS chemicals" align="right" height="70">
+    <source media="(prefers-color-scheme: dark)" srcset="/img/dark_openMINDS-chemicals-logo.png">
+    <source media="(prefers-color-scheme: light)" srcset="/img/light_openMINDS-chemicals-logo.png">
+    <img alt="openMINDS chemicals logo" src="/img/light_openMINDS-chemicals-logo.png" title="openMINDS chemicals" align="right" height="70">
   </picture>
 </a>
 

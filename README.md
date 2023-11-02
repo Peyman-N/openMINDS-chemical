@@ -1,15 +1,22 @@
-<a href="https://github.com/HumanBrainProject/openMINDS_chemicals/blob/v1/img/openMINDS_chem_logo.png">
-    <img src="https://github.com/HumanBrainProject/openMINDS_chemicals/blob/v1/img/light_openMINDS-chem-logo.png" alt="openMINDS chemicals logo" title="openMINDS chemicals" align="right" height="70" />
+<a href="/img/light_openMINDS_chemicals_logo.png">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="/img/dark_openMINDS_chemicals_logo.png">
+    <source media="(prefers-color-scheme: light)" srcset="/img/light_openMINDS_chemicals_logo.png">
+    <img alt="openMINDS chemicals logo" src="/img/light_openMINDS_chemicals_logo.png" title="openMINDS chemicals" align="right" height="70">
+  </picture>
 </a>
 
 # openMINDS_chemicals
 
-The **openMINDS_chemicals** repository is part of the **open** **M**etadata **I**nitiative for **N**euroscience **D**ata Structures (**openMINDS**). It extends openMINDS, by providing metadata schemas for in-depth descriptions of chemical substances and mixtures.
+The **openMINDS_chemicals** repository hosts one of the metadata models of the **openMINDS metadata framework**. It defines modular metadata schemas for describing chemical substances and mixtures.
 
-For more information please go to the [main openMINDS repository](https://github.com/HumanBrainProject/openMINDS).
+To generally learn more about the openMINDS metadata framework please go to :arrow_right: [**ReadTheDocs**](https://openminds-documentation.readthedocs.io).  
+For browsing through the metadata schemas you can also directly jump to the :arrow_right: [**openMINDS chemicals specifications**](https://openminds-documentation.readthedocs.io/en/latest/specifications/chemicals.html).
 
 ## How to contribute
-Please check our [contribution document](https://github.com/HumanBrainProject/openMINDS/blob/main/CONTRIBUTING.md).
+The openMINDS metadata framework is an open-source project and contributions from the community are highly appreciated. You can contribute by providing feedback and suggestions through the issue tracker as well as by making pull request for fixing issues and introducing new features.
+
+If you want to contribute please follow our  :arrow_right: [**contribution guidelines**](https://openminds-documentation.readthedocs.io/en/latest/shared/how_to_contribute.html).
 
 ## License
 This work is licensed under the MIT License.

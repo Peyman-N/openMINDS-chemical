@@ -56,7 +56,7 @@ The openMINDS metadata framework is closely collaborating with the [**InterLex P
 [contributors-url]: https://github.com/openMetadataInitiative/openMINDS_chemicals/graphs/contributors
 [contributors-shield]: https://img.shields.io/github/contributors/openMetadataInitiative/openMINDS_chemicals
 [docu-url]: https://openminds-documentation.readthedocs.io
-[docu-chemicals-url]: https://openminds-documentation.readthedocs.io/en/latest/schema_specifications/chemicals.html
+[docu-chemicals-url]: https://openminds-documentation.readthedocs.io/en/v3.0/schema_specifications/chemicals.html
 [ebrains2-doi]: https://doi.org/10.3030/101147319
 [hiball-url]: https://bigbrainproject.org/hiball.html
 [hbp-sga1-doi]: https://doi.org/10.3030/720270

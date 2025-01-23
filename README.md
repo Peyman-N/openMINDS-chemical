@@ -19,7 +19,9 @@ There you can also explore directly the :arrow_right: [**openMINDS_chemicals sch
 ## How to cite
 
 For referencing specifically the openMINDS_chemicals metadata model, please use the following RRID Portal record:  
-:arrow_right:  `openMINDS chemicals metadata model (RRID:SCR_026248)`  
+```
+openMINDS chemicals metadata model (RRID:SCR_026248)
+```
 
 Please reference in addition openMINDS in general, using our main RRID Portal record:  
 ```
@@ -33,7 +35,7 @@ The openMINDS metadata framework is an open-source project and community contrib
 Schema contributions to openMINDS_chemicals should be raised and discussed on the :arrow_right: [**issue tracker**][issuetracker-chemicals]  
 
 General usage questions should be raised and discussed in our :arrow_right: [**community forum**][community-forum].  
-Alternatively you can email us: :arrow_right: **support@openmetadatainitiative.org**. 
+Alternatively you can email us: `support@openmetadatainitiative.org`
 
 ## Funding and acknowledgements
 

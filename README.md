@@ -18,7 +18,7 @@ There you can also explore directly the :arrow_right: [**openMINDS_chemicals sch
 
 ## How to cite
 
-For referencing specifically the openMINDS_chemicals metadata model, please use the following RRID Portal record:  
+For specifically referencing the openMINDS_chemicals metadata model, please use the following RRID Portal record:  
 ```
 openMINDS chemicals metadata model (RRID:SCR_026248)
 ```

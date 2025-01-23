@@ -22,8 +22,9 @@ For referencing specifically the openMINDS_chemicals metadata model, please use 
 :arrow_right:  `openMINDS chemicals metadata model (RRID:SCR_026248)`  
 
 Please reference in addition openMINDS in general, using our main RRID Portal record:  
-##
-    `openMINDS metadata framework (RRID:SCR_023173)`  
+```
+openMINDS metadata framework (RRID:SCR_023173)
+```
 
 ## How to contribute
 

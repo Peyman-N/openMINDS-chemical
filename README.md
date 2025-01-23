@@ -33,9 +33,6 @@ Schema contributions to openMINDS_chemicals should be raised and discussed on th
 General usage questions should be raised and discussed in our :arrow_right: [**community forum**][community-forum].  
 Alternatively you can email us: :arrow_right: **support@openmetadatainitiative.org**. 
 
-General contributions should be raised and discussed on the main :arrow_right: [**openMINDS issue tracker**][issuetracker-main].  
-Instance contributions should be raised and discussed on the :arrow_right: [**openMINDS_instances issue tracker**][issuetracker-instances].
-
 ## Funding and acknowledgements
 
 The openMINDS metadata framework development started in the [**Human Brain Project (HBP)**][hbp-website], funded from the European Union’s Horizon 2020 Framework Programme for Research and Innovation under the Specific Grant Agreements [**SGA-1 (No.720270)**][hbp-sga1-doi], [**SGA-2 (No.785907)**][hbp-sga2-doi], and [**SGA-3 (No. 945539)**][hbp-sga3-doi]. 
